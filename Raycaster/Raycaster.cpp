@@ -14,7 +14,14 @@ namespace RaycasterDll
 	//////////////////////////////////////////////////////////////////////
 	// Renders vertical lines of increasing redness and decreasing height
 	//////////////////////////////////////////////////////////////////////
+	
+	// just calls testRender function for now.
 	void Raycaster::render()
+	{
+		Raycaster::testRender();
+	}
+
+	void Raycaster::testRender()
 	{
 		RenderWindow App(VideoMode(WIDTH, HEIGHT, 32), "SFML Window Graphics yo"); // create window with desktop settings
 		// main loop

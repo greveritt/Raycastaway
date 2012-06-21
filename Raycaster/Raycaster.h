@@ -5,8 +5,10 @@
       class Raycaster
       {
       public:
-          // right now it just displays some arbitrary graphical junk
-          static __declspec(dllexport) void render();
+		  // currently just calls testRender()
+		  static __declspec(dllexport) void render();
+          // just displays some arbitrary graphical junk
+          static __declspec(dllexport) void testRender();
 		  // very much a work in progress
 		  static __declspec(dllexport) int* castRays();
 	  };
