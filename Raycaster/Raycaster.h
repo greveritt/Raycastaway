@@ -11,5 +11,7 @@
           static __declspec(dllexport) void testRender();
 		  // very much a work in progress
 		  static __declspec(dllexport) int* castRays();
+		  // find distance between viewer and arbitrary point
+		  static __declspec(dllexport) int findDistance();
 	  };
   }
